@@ -1,0 +1,12 @@
+back up:
+
+dconf dump /org/mate/desktop/keybindings/ > dconf-mate-desktop-keybindings.conf
+
+dconf dump /org/mate/marco/window-keybindings/ > dconf-mate-marco-keybindings.conf
+
+
+load:
+
+dconf load /org/mate/desktop/keybindings/ < dconf-mate-desktop-keybindings.conf 
+
+dconf load /org/mate/marco/window-keybindings/ < dconf-mate-marco-keybindings.conf
