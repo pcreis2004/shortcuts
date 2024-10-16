@@ -1,12 +1,12 @@
 back up:
 
-dconf dump /org/cinnamon/desktop/keybindings/ > dconf-mate-desktop-keybindings.conf
+dconf dump /org/cinnamon/desktop/keybindings/ > dconf-cinnamon-desktop-keybindings.conf
 
-dconf dump /org/cinnamon/marco/window-keybindings/ > dconf-mate-marco-keybindings.conf
+dconf dump /org/cinnamon/marco/window-keybindings/ > dconf-cinnamon-marco-keybindings.conf
 
 
 load:
 
-dconf load /org/cinnamon/desktop/keybindings/ < dconf-mate-desktop-keybindings.conf 
+dconf load /org/cinnamon/desktop/keybindings/ < dconf-cinnamon-desktop-keybindings.conf 
 
-dconf load /org/cinnamon/marco/window-keybindings/ < dconf-mate-marco-keybindings.conf
+dconf load /org/cinnamon/marco/window-keybindings/ < dconf-cinnamon-marco-keybindings.conf
